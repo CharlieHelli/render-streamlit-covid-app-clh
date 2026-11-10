@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 8501
 
-CMD ["bash", "-lc", "streamlit run app.py --server.address="0.0.0.0" --server.port=${PORT:-8501}"]
+CMD ["bash", "-lc", "streamlit run app.py --server.address=0.0.0.0 --server.port=${PORT:-8501}"]
